@@ -19,7 +19,7 @@ purposes...
 
 from cryptidy import symmetric_encryption, asymmetric_encryption
 import os
-
+#The 1st step
 class SymmetricEncryption():
     def __init__(self , path):
         self.path = path
