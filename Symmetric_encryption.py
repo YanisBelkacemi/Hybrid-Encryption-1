@@ -41,8 +41,8 @@ class AsymmetricEncryption():
 
 
 if __name__ == '__main__':
-    distination_key ='C:\\Users\\ASUS\\Documents\\cookbook\\Hybrid-Encryption-1\\key'
-    path = 'C:\\Users\\ASUS\\Documents\\cookbook\\Hybrid-Encryption-1\\testingfiles'
+    distination_key ='/'
+    path = 'testingfiles'
 # File Encryption
     Encryption_Files = SymmetricEncryption(path)
     Encryption_Files.encrypt_files()

@@ -18,7 +18,7 @@ def AsymmetricDecryption():
 
 
 def SymmetricDecryption():
-    path = 'C:\\Users\\ASUS\\Documents\\cookbook\\Hybrid-Encryption-1\\testingfiles'
+    path = 'testingfiles'
     files = []
     # sym part
     for file in os.listdir(path):
@@ -33,4 +33,5 @@ def SymmetricDecryption():
         with open(fullpath , 'w') as Unlocked_file:
                 Unlocked_file.write(decryption.decode('utf-8'))
 
-
+AsymmetricDecryption()
+SymmetricDecryption()
