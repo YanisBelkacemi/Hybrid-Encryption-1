@@ -1,6 +1,24 @@
+'''
+What does this code do ?
+well the code has two major steps 
+1st:
+    Encrypting the files (here are the files in the folder named 'testingfiles') using a Symmetric Encryption
+    while saving the encryption key in a BinaryFile.
+2nd:
+    using an Asymmetric Encryption the code will encrypt the were the key is hidden. 
+
+
+Notice :
+    Most ransomeware if not all do also change the file formate , in this example i did not do a demonstration of this for security 
+purposes... 
+
+'''
+
+
+
+
 from cryptidy import symmetric_encryption, asymmetric_encryption
 import os
-import shutil
 
 class SymmetricEncryption():
     def __init__(self , path):
