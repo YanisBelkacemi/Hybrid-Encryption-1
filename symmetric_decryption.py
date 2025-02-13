@@ -6,7 +6,6 @@ files = []
 
 for file in os.listdir(path):
     files.append(file)
-
 with open('key.bin' , 'rb') as key:
     readkey = key.read()
 
