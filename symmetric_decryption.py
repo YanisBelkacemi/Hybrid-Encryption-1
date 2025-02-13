@@ -1,7 +1,7 @@
 from cryptidy import symmetric_encryption
 import os
 
-path = 'C:\\Users\\ASUS\\Documents\\cookbook\\Hybrid Encryption\\testingfiles'
+path = 'C:\\Users\\ASUS\\Documents\\cookbook\\Hybrid-Encryption-1\\testingfiles'
 files = []
 
 for file in os.listdir(path):
