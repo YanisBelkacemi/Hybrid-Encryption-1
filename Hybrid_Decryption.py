@@ -16,7 +16,6 @@ def AsymmetricDecryption():
     with open('key.bin' , 'rb') as sym_key:
         coded_key = sym_key.read()
     _,asymmetric_decryption = asymmetric_encryption.decrypt_message(coded_key , key)
-    # decode('utf') is used here to decode the decrypted data
     with open('key.bin' , "wb") as Unlocked_key:
         Unlocked_key.write(asymmetric_decryption)
 
